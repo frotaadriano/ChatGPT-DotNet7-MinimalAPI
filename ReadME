@@ -1,0 +1,11 @@
+
+Criando o projeto 
+    dotnet new webapi -n MinhaAPI  > api normal com controllers
+    dotnet new webapi -n MinhaAPI  > minimal API 
+
+Minimal APIs quick reference
+https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-new-sdk-templates#webapi
+
+Tutorial: Create a minimal API with ASP.NET Core
+https://learn.microsoft.com/en-us/aspnet/core/tutorials/min-web-api?view=aspnetcore-7.0&tabs=visual-studio
+
