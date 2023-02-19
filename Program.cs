@@ -1,24 +1,16 @@
-var builder = WebApplication.CreateBuilder(args);
+using System.Text;
 
-// Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    
-}
-
 app.UseHttpsRedirection(); 
- 
-// .WithName("GetWeatherForecast")
-// .WithOpenApi();
+
+app.MapGet("/questions", () => new Question[]{ new (1, "answer1"), new (2, "answer2")});
 
 app.Run();
- 
+
+record Question(int Id, String Answer);
