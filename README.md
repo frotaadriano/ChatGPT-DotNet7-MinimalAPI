@@ -1,6 +1,11 @@
+# .NET - Minimal API - Integrated with GhatGPT
+
+An introduction to .NET 7 and c# 11 Minimal API Integrated with GhatGPT! 
+
 ## Tecnologias utilizadas
-- .NET 6.0 - uma plataforma de desenvolvimento para criar aplicativos multiplataforma e serviços web modernos.
-- C# - uma linguagem de programação moderna e orientada a objetos projetada pela Microsoft.
+- Minimal API
+- .NET 7.0 - uma plataforma de desenvolvimento para criar aplicativos multiplataforma e serviços web modernos.
+- C# 11 - uma linguagem de programação moderna e orientada a objetos projetada pela Microsoft.
 - System.Net.Http - um namespace que fornece classes para enviar solicitações HTTP e receber respostas HTTP de um servidor.
 
 ## VS CODE Extensions
