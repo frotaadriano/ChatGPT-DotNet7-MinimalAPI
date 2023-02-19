@@ -35,5 +35,8 @@ Para executar o código acima, você precisa ter o .NET 6.0 SDK instalado em sua
 
 Para executar o código, basta copiar e colar o código em um arquivo .cs e executar o método `GetOpenAICompletions`. Certifique-se de substituir "YOUR_OPENAI_API_KEY" pela sua chave de API da OpenAI.
 
+- Commando: dotnet run -lp https
+- Swagger: https://localhost:7222/swagger/index.html
+
 ## Conclusão
 O código acima é um exemplo simples de como consumir a API da OpenAI usando o .NET Minimal API. O código usa o namespace `System.Net.Http` para enviar uma solicitação `POST` para a API da OpenAI e recebe uma resposta `JSON` em forma de string. A partir daí, você pode usar a biblioteca `Newtonsoft.Json` para desserializar a resposta JSON em um objeto .NET.
