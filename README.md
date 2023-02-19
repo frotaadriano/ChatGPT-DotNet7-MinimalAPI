@@ -3,6 +3,8 @@
 - C# - uma linguagem de programação moderna e orientada a objetos projetada pela Microsoft.
 - System.Net.Http - um namespace que fornece classes para enviar solicitações HTTP e receber respostas HTTP de um servidor.
 
+## VS CODE Extensions
+- REST Client v0.25.1
 
 ## Criando o projeto  
 
