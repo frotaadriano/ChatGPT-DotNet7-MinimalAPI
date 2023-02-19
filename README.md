@@ -40,3 +40,8 @@ Para executar o código, basta copiar e colar o código em um arquivo .cs e exec
 
 ## Conclusão
 O código acima é um exemplo simples de como consumir a API da OpenAI usando o .NET Minimal API. O código usa o namespace `System.Net.Http` para enviar uma solicitação `POST` para a API da OpenAI e recebe uma resposta `JSON` em forma de string. A partir daí, você pode usar a biblioteca `Newtonsoft.Json` para desserializar a resposta JSON em um objeto .NET.
+
+## Screenshots
+
+![App Screenshot](https://raw.githubusercontent.com/frotaadriano/ChatGPT-DotNet7-MinimalAPI/master/ScreenShots/chatgpt%20csharp.jpg)
+
