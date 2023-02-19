@@ -10,10 +10,12 @@ app.UseSwagger();
 app.UseSwaggerUI();
 app.UseHttpsRedirection(); 
 
-app.MapGet("/questions", () => new Question[]{ new (1, "answer1"), new (2, "answer2")});
-app.MapPost("/questions", (Question question) => question);
+app.MapGet("/questions", () => new Question[]{ new (1,"asked1", "answer1"), new (2, "asked2", "answer2")});
+app.MapGet("/questions/{question}", (string question) => $"Your question was: {question}");
+
+app.MapPost("/questions", (Question question) => question); 
 
 
 app.Run();
 
-record Question(int Id, String Answer);
+record Question(int Id, string Asked, string Answer = "");
